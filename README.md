@@ -1,18 +1,73 @@
-# title
-about section
+# WeeChat YouTube Info Script
 
-## Functions
-detailed explanation of functions
+This WeeChat script fetches YouTube video information from URLs shared in a channel and posts the extracted details back to the channel. It uses `curl` to fetch the webpage content, extracts the video's title, author, and duration using regex, and presents the information in a clean format.
+
+## Requirements
+
+- Python (2.7+ or 3.x)
+- WeeChat
+- `curl` command-line tool
 
 ## Installation
-git this and that
-## Usage
-sh
-```bash
+
+1. Install WeeChat if you haven't already. Refer to the official WeeChat documentation for installation instructions.
+2. Install `curl` if it's not already installed on your system. You can use your operating system's package manager to install it.
+3. Download the `youtube_info.py` script file to your local machine.
+4. Open WeeChat and load the script by running the following command:
+
 ```
+/script load /path/to/youtube_info.py
+```
+
+Replace `/path/to/youtube_info.py` with the actual path to the script file on your machine.
+
+## Usage
+
+1. Join a channel where users share YouTube URLs.
+2. When a YouTube URL is posted in the channel, the script will automatically fetch the webpage, extract the video information, and post it back to the channel.
+3. The extracted information includes the video's title, author, and duration, presented in a clean format.
+
+## Customization
+
+You can customize the script behavior by modifying the following variables in the script:
+
+- `FETCH_COMMAND`: The command used to fetch the webpage content. Adjust it according to your system and preferences.
+- `ALLOWED_CHARACTERS`: The whitelist of characters allowed in the extracted video information. Modify it based on your requirements.
+
+The ALLOWED_CHARACTERS regular expression pattern specifies the characters that are allowed in the extracted video information. Any characters that do not match this pattern will be removed using the re.sub() function.
+
+By using this whitelist approach, the script will now remove any characters that are not alphanumeric, whitespace, period, colon, or hyphen. This helps ensure that the extracted information is as clean as possible while avoiding issues when posting it back to the channel.
+
+## Limitations
+
+- The script relies on regex patterns to extract video information from the YouTube webpage. While it provides a basic example, parsing HTML with regex is generally not recommended for complex scenarios. Consider using a dedicated HTML parsing library or the YouTube Data API for a more robust solution.
+- The script uses `curl` to fetch the webpage content. If you prefer to use `wget` or another tool, modify the `FETCH_COMMAND` variable accordingly.
+
+## Contributing
+
+Contributions to the script are welcome! If you have any suggestions, improvements, or bug fixes, please submit a pull request or open an issue on the GitHub repository.
 
 ## Flowchart
 ```
+┌─ Start Program
+│
+├─ Join a channel
+│
+├─ Listen for messages
+│   ├─ Is it a YouTube URL?
+│   │   ├─ Yes
+│   │   │   ├─ Fetch webpage content
+│   │   │   │   ├─ Extract video title
+│   │   │   │   ├─ Extract video author
+│   │   │   │   └─ Extract video duration
+│   │   │   │
+│   │   │   └─ Post video information to the channel
+│   │   │
+│   │   └─ No
+│   │
+│   └─ Continue listening for messages
+│
+└─ End Program
 ```
 
 ## [Disclaimer](DISCLAIMER)
