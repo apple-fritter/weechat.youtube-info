@@ -70,24 +70,23 @@ Contributions to the script are welcome! If you have any suggestions, improvemen
 └─ End Program
 ```
 
-## Other IRC related repositories:
+## IRC Meta:
 
-#### WeeChat
+### WeeChat
 - [weechat.ban-evasion-detection](https://github.com/apple-fritter/weechat.ban-evasion-detection): Detect and prevent ban evasion. Python.
 - [weechat.typo-aggregator](https://github.com/apple-fritter/weechat.typo-aggregator): Records misspelled words in a TSV (tab-separated values) file. Python.
 - [weechat.whois-aggregator](https://github.com/apple-fritter/weechat.whois-aggregator): Aggregate whois data in a rolling CSV file. Python.
 - [weechat.youtube-info](https://github.com/apple-fritter/weechat.youtube-info): Extract video information from a YouTube URL and post it back to the channel. Python.
 
-#### IRCcloud
+### IRCcloud
 - [irccloud-to-weechat](https://github.com/apple-fritter/irccloud-to-weechat): Convert IRC logs from the IRCcloud format to the Weechat format. Rust.
 - [irccloud-to-xchat](https://github.com/apple-fritter/irccloud-to-xchat): Convert IRC logs from the IRCcloud format to the XChat format. Rust.
 
-#### X-Chat
+### X-Chat
 - [xchat.channel-moderation](https://github.com/apple-fritter/xchat.channel-moderation): Moderate an IRC channel. Python.
 - [doppelganger](https://github.com/apple-fritter/doppelganger): X-Chat mIRC imposter. Fingerprint subversion. Python bundle.
 
-#### IRC General
-
+### Other:
 - [driftwood](https://github.com/apple-fritter/driftwood): A unified IRC log format defined. Written in Rust.
 
 ## [Disclaimer](DISCLAIMER)
