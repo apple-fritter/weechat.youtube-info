@@ -1,4 +1,4 @@
-# WeeChat YouTube Info Script
+# YouTube Info
 
 This WeeChat script fetches YouTube video information from URLs shared in a channel and posts the extracted details back to the channel. It uses `curl` to fetch the webpage content, extracts the video's title, author, and duration using regex, and presents the information in a clean format.
 
