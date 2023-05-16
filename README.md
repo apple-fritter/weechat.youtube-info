@@ -2,7 +2,7 @@
 
 This WeeChat script fetches YouTube video information from URLs shared in a channel and posts the extracted details back to the channel. It uses `curl` to fetch the webpage content, extracts the video's title, author, and duration using regex, and presents the information in a clean format.
 
-> This repository is deprecated and will not receive new commits after 16 May, 2023. Please visit [weechat.youtube-info](https://github.com/apple-fritter/weechat.youtube-api), instead.
+> This repository is deprecated and will not receive new commits after 16 May, 2023, absent changes to the IRC Meta section. Please visit [weechat.youtube-info](https://github.com/apple-fritter/weechat.youtube-api), instead.
 
 ## Requirements
 
@@ -96,8 +96,7 @@ Including comments and docstrings throughout the code can improve readability an
 - [weechat.ban-evasion-detection](https://github.com/apple-fritter/weechat.ban-evasion-detection): Detect and prevent ban evasion. (Python)
 - [weechat.typo-aggregator](https://github.com/apple-fritter/weechat.typo-aggregator): Record misspelled words in a TSV (tab-separated values) file. (Python)
 - [weechat.whois-aggregator](https://github.com/apple-fritter/weechat.whois-aggregator): Aggregate whois data in a rolling CSV file. (Python)
-- [weechat.youtube-info](https://github.com/apple-fritter/weechat.youtube-info): Extract video information from a YouTube URL and post it back to the channel. (Python)
-> the above repository is deprecated
+- [weechat.youtube-info](https://github.com/apple-fritter/weechat.youtube-info): Deprecated. Extract video information from a YouTube URL and post it back to the channel. (Python)
 - [weechat.youtube-api](https://github.com/apple-fritter/weechat.youtube-api): Extract video information from a YouTube URL and post it back to the channel. (Python)
 
 ### IRCcloud
