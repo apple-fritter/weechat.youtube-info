@@ -2,7 +2,7 @@
 
 This WeeChat script fetches YouTube video information from URLs shared in a channel and posts the extracted details back to the channel. It uses `curl` to fetch the webpage content, extracts the video's title, author, and duration using regex, and presents the information in a clean format.
 
-> This repository is deprecated and will not receive new commits after 16 May, 2023, absent changes to the IRC Meta section. Please visit [weechat.youtube-info](https://github.com/apple-fritter/weechat.youtube-api), instead.
+> This repository is deprecated and will not receive new commits after 16 May, 2023, absent changes to the IRC Meta section. Please visit [weechat.youtube-api](https://github.com/apple-fritter/weechat.youtube-api), instead.
 
 ## Requirements
 
