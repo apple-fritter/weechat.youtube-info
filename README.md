@@ -109,6 +109,7 @@ Including comments and docstrings throughout the code can improve readability an
 
 ### Other
 - [driftwood](https://github.com/apple-fritter/driftwood): A unified IRC log format definition. (Rust)
+- [scrimshaw](https://github.com/apple-fritter/scrimshaw): Create a quoteslist of any given user, from your driftwood formatted logs. (Rust)
 
 ### IRC usage considerations
 When working with any project involving IRC (Internet Relay Chat), it's important to keep the following considerations in mind to ensure a positive and respectful environment for all participants.
@@ -128,10 +129,14 @@ Avoid disrupting the normal flow of conversation within IRC channels. Ensure tha
 #### Ensure Compatibility
 Consider the potential variations in behavior across different IRC platforms and clients. While aiming for compatibility, be aware that certain functionalities may not be available or consistent across all platforms. Test your project on multiple IRC platforms and clients to ensure compatibility and provide the best possible experience for users.
 
+---
+
 ## [Disclaimer](DISCLAIMER)
 **This software is provided "as is" and without warranty of any kind**, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
 
 **The authors do not endorse or support any harmful or malicious activities** that may be carried out with the software. It is the user's responsibility to ensure that their use of the software complies with all applicable laws and regulations.
+
+---
 
 ## License
 
