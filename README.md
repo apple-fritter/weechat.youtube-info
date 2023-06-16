@@ -90,12 +90,15 @@ Including comments and docstrings throughout the code can improve readability an
 
 > These potential improvements can be considered to refine the script according to specific needs and preferences. They address concerns that may arise during usage and contribute to a more robust and reliable script overall. Feel free to implement any of these improvements based on your requirements and the desired level of functionality and security.
 
+---
+
 ## 🤪 IRC Meta
 ### [@apple-fritter](https://github.com/apple-fritter)'s IRC Repositories:
 
 ---
 
 #### WeeChat
+- [weechat.driftwood](https://github.com/apple-fritter/weechat.driftwood): Natively log WeeChat messages in the driftwood standard. (Python.)
 - [weechat.ban-evasion-detection](https://github.com/apple-fritter/weechat.ban-evasion-detection): Detect and prevent ban evasion. (Python)
 - [weechat.typo-aggregator](https://github.com/apple-fritter/weechat.typo-aggregator): Record misspelled words in a TSV (tab-separated values) file. (Python)
 - [weechat.whois-aggregator](https://github.com/apple-fritter/weechat.whois-aggregator): Aggregate whois data in a rolling CSV file. (Python)
